@@ -18,6 +18,7 @@ def get_random_quote():
 	except:
 		print("Something went wrong! Try Again!")
 
+
 quote = get_random_quote()
 
 generator = pipeline('text-generation', model ='EleutherAI/gpt-neo-125M')
