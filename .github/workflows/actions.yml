@@ -48,6 +48,6 @@ jobs:
         force: true
     
     - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: docs
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: docs
