@@ -154,13 +154,11 @@ ul.submenu {
 	color:#000;
 	text-decoration:none;
 	display:block;
-	background-image:url(../images/backgrounds/h1.png);
 	background-position:right;
 	background-repeat:no-repeat;
 }
 #content h1 a:hover {
 	color:#444;
-	background-image:url(../images/backgrounds/h1_hover.png);
 }
 #content h2 {
 	font-size:11px;
