@@ -62,7 +62,10 @@ def retreive_posts():
         sql = "SELECT * FROM posts ORDER BY created_at DESC LIMIT 5"
         mycursor.execute(sql)
         result = mycursor.fetchall()
+        print("Retreived posts from DB.")
         return result
+
+
 
     except:
         print("Something went wrong while retreiving records from DB.")
@@ -93,5 +96,7 @@ def render_html(result):
         f = open("docs/index.html", "w")
         f.write(htmltext)
         f.close()
+        print("Rendered HTML.")
+        
     except:
         print("Something went wrong while rendering HTML.")
