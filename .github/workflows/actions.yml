@@ -30,4 +30,18 @@ jobs:
         DB_NAME: ${{ secrets.DB_NAME }}
         DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
         DB_USER: ${{ secrets.DB_USER }}
-      run: python ./main.py
+      run: |
+        python ./main.py
+        git add ./docs
+        git commit -m "Updating the index html in docs dir for Github pages"
+
+    - name: Commit changes
+      run: |
+        git add ./docs
+        git commit -m "Updating the index html in docs dir for Github pages"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        force: true
+    
