@@ -32,6 +32,8 @@ jobs:
         DB_USER: ${{ secrets.DB_USER }}
       run: |
         python ./main.py
+        git config user.email "erkanncelen@gmail.com"
+        git config user.name "Erkan Celen"
         git add ./docs
         git commit -m "Updating the index html in docs dir for Github pages"
 
@@ -45,3 +47,7 @@ jobs:
       with:
         force: true
     
+    - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: docs
