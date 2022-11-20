@@ -4,3 +4,4 @@ torchvision
 transformers
 requests
 mysql.connector
+python-dotenv
