@@ -1,4 +1,4 @@
-from utils import get_random_quote, insert_record, retreive_posts, render_html, generator
+from utils import get_random_quote, generator, insert_record, retreive_posts, render_html
 
 quote = get_random_quote()
 context = quote.partition('.')[0]
