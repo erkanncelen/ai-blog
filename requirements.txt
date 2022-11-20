@@ -3,3 +3,4 @@ torchaudio
 torchvision
 transformers
 requests
+mysql
