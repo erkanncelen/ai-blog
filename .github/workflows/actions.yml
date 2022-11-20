@@ -44,8 +44,3 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         force: true
-    
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        folder: docs

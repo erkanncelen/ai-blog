@@ -1,6 +1,6 @@
 # Bruno Florentin
 
-Bruno Florentin is a fictional person powered by AI (nlp) that has a personal blog at: [here](https://erkanncelen.github.io/brunoflorentin)
+Bruno Florentin is a fictional person powered by AI (NLP) who loves writing blog posts [here](https://erkanncelen.github.io/brunoflorentin)
 
 ## How it works?
 
