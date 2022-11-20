@@ -3,4 +3,4 @@ torchaudio
 torchvision
 transformers
 requests
-mysql
+mysql.connector
