@@ -70,7 +70,7 @@ def retreive_posts():
     except:
         print("Something went wrong while retreiving records from DB.")
 
-## rendering single line HTML string for github pages index.html
+## rendering single line HTML string for github pages index html
 def render_html(result):
     try:
         context1= result[0][1]
@@ -97,6 +97,6 @@ def render_html(result):
         f.write(htmltext)
         f.close()
         print("Rendered HTML.")
-        
+
     except:
         print("Something went wrong while rendering HTML.")
